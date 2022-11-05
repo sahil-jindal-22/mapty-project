@@ -326,3 +326,7 @@ class App {
 const app = new App();
 
 console.log('testing');
+
+const newFeature = function () {
+  console.log('Welcome to the application!');
+};
