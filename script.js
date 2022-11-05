@@ -101,7 +101,7 @@ class App {
       navigator.geolocation.getCurrentPosition(
         this._loadMap.bind(this),
         function () {
-          Alert('Not able to get the location');
+          alert('Not able to get the location');
         }
       );
   }
